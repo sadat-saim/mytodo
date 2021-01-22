@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Coding Noobs todo</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+</head>
+
+<body>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row">
+            <div class="one-half column" style="margin-top: 8%">
+                <h4>To-do app</h4>
+                <form action="">
+                    <input type="text" placeholder="Add a new task" class="todo">
+                    <input type="submit" value="Add" class="button">
+                </form>
+                <ul>
+                    <!--the first list below wii act as the relative insertAdjecentHTML reference so that when
+                       i delete all the li elements the relative li will be vanished and i cant input more.
+                      so this is the solution of this problem-->
+                    <li style="display: none;"></li>
+                    <li><span>Eat Breakfast</span> <a href="#" class="delete-item button">delete</a></li>
+                    <li><span>Making Meals</span> <a href="#" class="delete-item button">delete</a></li>
+                    <li><span>Coding</span> <a href="#" class="delete-item button">delete</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+body {
+    background-image: url(../images/bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #494845;
+}
+
+ul li {
+    list-style-type: none;
+    border-left: 4px solid #cac1c0;
+    padding-left: 10px;
+    line-height: 3.5;
+}
+
+input[type="text"]:focus {
+    border-color: #fecbca;
+}
+
+input[type="submit"],
+.button {
+    background-color: #fecbca;
+}
+
+.delete-item {
+    margin-left: 27px;
+    border: 2px solid #caeae5;
+}
+
+input[type="submit"]:hover,
+.button:hover {
+    border-color: #ce908b;
+    background-color: #a2d0cb;
+}
